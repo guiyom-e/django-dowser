@@ -108,7 +108,7 @@ def tree(request, objid, typename):
 method_types = [
     type(tuple.__le__),                 # 'wrapper_descriptor'
     type([1].__le__),                   # 'method-wrapper'
-    type(sys.getcheckinterval),         # 'builtin_function_or_method'
+    type(sys.getswitchinterval),         # 'builtin_function_or_method'
     type(threading.Thread.isAlive),     # 'instancemethod'
 ]
 
