@@ -1,3 +1,5 @@
+NEW: Compatible with Python 3.10
+
 About
 =====
 
